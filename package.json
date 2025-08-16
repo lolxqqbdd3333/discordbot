@@ -1,0 +1,24 @@
+{
+  "name": "discordpost",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "posts",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Discord bot for posting to Simple Posts website",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
